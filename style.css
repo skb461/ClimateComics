@@ -8,10 +8,8 @@
 }
 
 body{
-  margin: auto;
-  max-width: 1500px;
   overflow-x: hidden;
-  background: #234;
+  background: #fff;
 }
 
 
@@ -19,10 +17,9 @@ body{
 .section_title{
   font-family: 'Londrina Outline', cursive;
   font-weight: 400;
-  font-size: 500px;
-  line-height: 500px;
-  padding-top: 5%;
-  color: #777;
+  font-size: 100px;
+  line-height: 150px;
+  color: #2B2B2B;
 }
 
 .masthead {
@@ -98,7 +95,7 @@ body{
   padding-bottom: 100px;
 /*   clip-path: polygon(30% 0, 100% 0, 100% 50%, 100% 100%, 65% 100%); */
 /*   background: url('image/bg.jpg'); */
-  background: #456;
+  background: #DAE6E8;
   background-repeat: no-repeat;
   background-size: cover;
 /*   box-shadow: rgba(0, 0, 0, 0.7) 0 0 0 100vh inset; */
@@ -144,7 +141,7 @@ body{
 }
 
 .text_about{
-  color: #ccc;
+  color: #2B2B2B;
   font-variant: small-caps;
   text-align: justify;
   font-size: 18px;
@@ -156,7 +153,7 @@ body{
 
 #galary{
   padding-bottom: 100px;
-  background: #234;
+  background: #DAE6E8;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -197,11 +194,20 @@ body{
   width: 100%;
   padding-bottom: 100px;
 /*   padding-top: 100px; */
-  background: #456;
+  background: #ABB088;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .client{
+}
+
+.books{
+  opacity: 0;
+  transition: .7s ease-in-out;
+}
+
+.books:hover{
+  opacity: 1;
 }
 
 #contact{
