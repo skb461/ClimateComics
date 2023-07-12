@@ -250,3 +250,43 @@ body{
 #footer{
   background: #444;
 }
+
+
+.team-card-image{
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  background-color: #75cfe6; 
+  transition: .6s ease-in-out !important;
+}
+
+.team-card-image:hover{
+  clip-path: polygon(0 0,76% 0, 100% 100%, 25% 100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
