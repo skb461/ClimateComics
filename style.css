@@ -262,10 +262,31 @@ body{
   clip-path: polygon(0 0,76% 0, 100% 100%, 25% 100%);
 }
 
+.review_text{
+  padding-top: 20px; 
+  padding-bottom: 20px; 
+  padding-left: 200px; 
+  padding-right: 200px; 
+  text-align: justify;
+}
+.review_quetion{
+   margin-left:15rem !important;
+}
 
+@media only screen and (max-width: 900px) {
+  .review_text {
+    padding-left: 50px !important; 
+    padding-right: 50px !important; 
+  }
 
+  .review_quetion{
+    margin-left:1rem !important;
+  }
 
-
+  .section_title{
+    font-size: 40px;
+  line-height: 100px;
+}
 
 
 
