@@ -9,7 +9,11 @@
 
 body{
   overflow-x: hidden;
-  background: #fff;
+  background: url('03.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: rgba(225, 225, 225, 0.9) 0 0 0 100vh inset;
 }
 
 
@@ -194,7 +198,7 @@ body{
   width: 100%;
   padding-bottom: 100px;
 /*   padding-top: 100px; */
-  background: #ABB088;
+/*   background: #ABB088; */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -240,7 +244,7 @@ body{
 #pre_footer{
   padding-top: 100px;
   padding-bottom: 50px;
-  background: #567;
+  background: rgba(85, 102, 119, .7);
 }
 
 .pre_footer_about{
@@ -293,6 +297,15 @@ body{
 }
 
 
+.book-card-image{
+  clip-path: inset(7% 7% 0% 7%);
+/*   background-color: #75cfe6; */
+  transition: .3s ease-in-out !important;
+}
+
+.book-card-image:hover{
+  clip-path: inset(0% 0% 0% 0%);
+}
 
 
 
