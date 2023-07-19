@@ -300,7 +300,6 @@ body{
 
 
 .book-card-image{
-  height: 100vh;
   clip-path: inset(7% 7% 0% 7%);
 /*   background-color: #75cfe6; */
   transition: .3s ease-in-out !important;
